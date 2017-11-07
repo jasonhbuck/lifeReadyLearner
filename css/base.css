@@ -1,0 +1,88 @@
+
+/*---reset.css file---*/
+      
+  body,div,dl,dt,dd,ul,ol,li,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+      margin:0;
+      padding:0;
+      
+      /*font: normal 1em sans-serif;*/
+  }
+  table {
+      border-collapse:collapse;
+      border-spacing:0;
+  }
+  fieldset,img {
+      border:0;
+  }
+  address,caption,cite,code,dfn,em,strong,th,var {
+      font-style:normal;
+      font-weight:normal;
+  }
+  ol,ul {
+      list-style:none;
+  }
+  caption,th {
+      text-align:left;
+  }
+  h1,h2,h3,h4,h5,h6 {
+      font-size:100%;
+      font-weight:normal;
+  }
+  q:before,q:after {
+      content:'';
+  }
+  abbr,acronym { border:0;
+  }
+  .hidden {
+    display: none;
+  }
+/* let's clear some floats */
+  .clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+  .clearfix:after { clear: both; }
+  .clearfix { zoom: 1; }
+
+/* general stuff */
+body {
+  min-width: 25%;
+  max-width: 80%;
+  margin: 1em auto;
+}
+.no_bottom_margin{
+  margin-bottom: 0;
+}
+section{
+  margin: 2em auto;
+}
+.center{
+  width: 25%;
+  margin: 0 auto;
+}
+.hidden{
+  visibility:hidden;
+}
+
+/* Fonts are fun */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i|Roboto:400,900');
+
+body, input, select{
+  font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1{
+  font: 300 2rem/2.0rem 'Roboto Condensed', sans-serif;
+}
+select{
+  font-size: 1.3rem;
+  line-height: 1.4rem;
+}
+.huge{
+  font-size: 15rem;
+  line-height: 5rem;
+  text-align: center;
+}
+.ultra_condenced{
+  font-stretch: ultra-condensed;
+}
